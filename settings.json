@@ -4,7 +4,14 @@
     "allow": [
       "Bash(find:*)",
       "Bash(grep:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git:add)",
+      "Bash(git:commit)",
+      "Bash(git:pull)",
+      "Bash(git:status)",
+      "Bash(git:log)",
+      "Bash(git:branch)",
+      "Bash(git:checkout)"
     ],
     "deny": []
   }
