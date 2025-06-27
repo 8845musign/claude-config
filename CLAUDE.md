@@ -4,6 +4,7 @@
 
 # Development
 
+- Test-driven development is mandatory based on Code Excellence Principles
 - When practicing TDD and test-driven development, follow all approaches recommended by t-wada
 - Refactoring follows the approach recommended by Martin Fowler
 - Follow security rules
