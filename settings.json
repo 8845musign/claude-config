@@ -5,12 +5,15 @@
       "Bash(find:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
-      "Bash(git:add)",
-      "Bash(git:pull)",
-      "Bash(git:status)",
-      "Bash(git:log)",
-      "Bash(git:branch)",
-      "Bash(git:checkout)"
+      "Bash(git add)",
+      "Bash(git pull)",
+      "Bash(git status)",
+      "Bash(git log)",
+      "Bash(git branch)",
+      "Bash(git checkout)",
+      "Bash(npm run test:*)",
+      "Bash(npm run typecheck)",
+      "Bash(npm run typeCheck)"
     ],
     "deny": [
       "Bash(sudo:*)",
