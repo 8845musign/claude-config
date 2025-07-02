@@ -1,5 +1,4 @@
 {
-  "model": "opus",
   "permissions": {
     "allow": [
       "Bash(find:*)",
@@ -41,6 +40,20 @@
       "Bash(mysql:*)",
       "Bash(mongod:*)",
       "mcp__supabase__execute_sql"
+    ]
+  },
+  "model": "opus",
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "osascript -e 'display notification \"Claude Codeが許可を求めています\" with title \"Claude Code\" subtitle \"確認待ち\" sound name \"Glass\"'"
+          }
+        ]
+      }
     ]
   }
 }
