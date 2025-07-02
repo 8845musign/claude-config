@@ -14,6 +14,9 @@ projects/
 *.temp
 *.log
 
+# IDE folders
+ide/
+
 # OS files
 .DS_Store
 Thumbs.db
