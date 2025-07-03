@@ -17,7 +17,8 @@
       "Bash(npm lint:*)",
       "Edit(docs/*)",
       "Edit(src/*)",
-      "Edit(README.md)"
+      "Edit(README.md)",
+      "Bash(rg:*)"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -53,7 +54,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "osascript -e 'display notification \"Claude Codeが許可を求めています\" with title \"Claude Code\" subtitle \"確認待ち\" sound name \"Glass\"'"
+            "command": "afplay /System/Library/Sounds/Glass.aiff"
           }
         ]
       }
