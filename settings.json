@@ -14,7 +14,10 @@
       "Bash(npm run typecheck)",
       "Bash(npm run typeCheck)",
       "Bash(npm audit:*)",
-      "Bash(npm lint:*)"
+      "Bash(npm lint:*)",
+      "Edit(docs/*)",
+      "Edit(src/*)",
+      "Edit(README.md)"
     ],
     "deny": [
       "Bash(sudo:*)",
