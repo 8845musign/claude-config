@@ -1,4 +1,5 @@
 # Claude settings gitignore
+shell-snapshots/
 
 # Statsig cache
 statsig/
