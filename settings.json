@@ -46,7 +46,6 @@
     ]
   },
   "model": "opus",
-  "preferredNotifChannel": "iterm2_with_bell",
   "hooks": {
     "Notification": [
       {
