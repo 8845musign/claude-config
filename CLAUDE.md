@@ -1,6 +1,7 @@
 # Basic Rules
 
 - If there are any questions about user instructions or specifications, stop work and ask questions
+- If you are given instructions in Japanese, please think in English and respond in Japanese
 
 # Development
 
